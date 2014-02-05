@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSSreader</string>
+    <string name="up_date_all">update all</string>
+    <string name="up_date">update</string>
+    <string name="no_channels">Добавьте rss каналы для чтения</string>
+    <string name="menu_delete">Удалить канал</string>
+    <string name="menu_edit">Редактировать канал</string>
+    <string name="menu_update">Обновить канал</string>
+    <string name="add">+</string>
+    <string name="add_channel">Введите название канала</string>
+    <string name="add_link">Введите ссылку на канал</string>
+    <string name="edit">Изменить</string>
+    <string name="add_new_chahhel">Добавить</string>
+    <string name="cancel">Отмена</string>
+    <string name="error_null">Ошибка! Не все поля заполнены!</string>
+    <string name="repeat_name">Такое имя канала уже существует. Добавление невозможно.</string>
+    <string name="repeat_link">Такая ссылка на канал уже существует. Добавление невозможно.</string>
+    <string name="connection_error">Невозможно загрузить информацию. Проверьте сетевое подключение</string>
+    <string name="download_error">Ошибка загрузки данных. Возможно для канала введена неверная ссылка</string>
+    <string name="download">Обновление данных...</string>
+    <string name="download_update">Внимание! Началось обновление. Дождитесь сообщения о завершении загрузки</string>
+    <string name="download_finish">Обновление завершено успешно</string>
+    <string name="message_delete_dialog">Подтвердите удаление выбранного канала</string>
+    <string name="delete">Удалить</string>
+    <string name="deleting">Удаление канала</string>
+    <string name="update_count">Загрузка данных продолжается. Обновлено каналов </string>
+    <string name="line">/</string>
+    <string name="no_channels_for_update">Каналов для обновления не найдено</string>
+</resources>

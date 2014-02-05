@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_channel"
+            android:textSize="20dp"
+            android:id="@+id/textViewName"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextName"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_link"
+            android:textSize="20dp"
+            android:id="@+id/textViewLink"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextLink"/>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonAddEdit"
+                android:layout_weight="1"
+                android:onClick="onClickAddEdit"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:id="@+id/cancel"
+                android:layout_weight="1"
+                android:onClick="onClickCancel"/>
+    </LinearLayout>
+</LinearLayout>
